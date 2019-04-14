@@ -11,15 +11,26 @@ class ComposerStaticInita52dc361a6327ccd305ba69fae77097e
     );
 
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\EventManager\\' => 18,
+            'Zend\\Code\\' => 10,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\' => 18,
+            'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Console\\' => 26,
+        ),
+        'P' => 
+        array (
+            'PackageVersions\\' => 16,
         ),
         'D' => 
         array (
             'Doctrine\\ORM\\' => 13,
+            'Doctrine\\Migrations\\' => 20,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\DBAL\\' => 14,
             'Doctrine\\Common\\Inflector\\' => 26,
@@ -35,6 +46,14 @@ class ComposerStaticInita52dc361a6327ccd305ba69fae77097e
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\EventManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-eventmanager/src',
+        ),
+        'Zend\\Code\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-code/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -43,13 +62,25 @@ class ComposerStaticInita52dc361a6327ccd305ba69fae77097e
         array (
             0 => __DIR__ . '/..' . '/symfony/contracts',
         ),
+        'Symfony\\Component\\Stopwatch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stopwatch',
+        ),
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'PackageVersions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ocramius/package-versions/src/PackageVersions',
+        ),
         'Doctrine\\ORM\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/orm/lib/Doctrine/ORM',
+        ),
+        'Doctrine\\Migrations\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/migrations/lib/Doctrine/Migrations',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -89,6 +120,13 @@ class ComposerStaticInita52dc361a6327ccd305ba69fae77097e
     );
 
     public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'ProxyManager\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/ocramius/proxy-manager/src',
+            ),
+        ),
         'D' => 
         array (
             'Doctrine\\Common\\Lexer\\' => 

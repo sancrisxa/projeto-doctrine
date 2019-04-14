@@ -6,10 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Zend\\EventManager\\' => array($vendorDir . '/zendframework/zend-eventmanager/src'),
+    'Zend\\Code\\' => array($vendorDir . '/zendframework/zend-code/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Contracts\\' => array($vendorDir . '/symfony/contracts'),
+    'Symfony\\Component\\Stopwatch\\' => array($vendorDir . '/symfony/stopwatch'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'PackageVersions\\' => array($vendorDir . '/ocramius/package-versions/src/PackageVersions'),
     'Doctrine\\ORM\\' => array($vendorDir . '/doctrine/orm/lib/Doctrine/ORM'),
+    'Doctrine\\Migrations\\' => array($vendorDir . '/doctrine/migrations/lib/Doctrine/Migrations'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib/Doctrine/DBAL'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
